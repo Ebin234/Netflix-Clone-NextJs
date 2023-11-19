@@ -2,7 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Setup environment variables
+
+You'll want to set your `GITHUB_CLIENT_ID` , `GITHUB_CLIENT_SECRET` , `DATABASE_URL` and `NEXT_PUBLIC_TMDB_API_KEY` as environment variables. You can add them to a `.env.local` file.
+
+ run the development server:
 
 ```bash
 npm run dev
